@@ -1,3 +1,23 @@
+import { FaCalendarCheck, FaHandshake, FaNewspaper, FaShapes } from "react-icons/fa";
+
+export const benefits = [
+    {
+        icon: FaHandshake,
+        text: "Connect with like-minded developers in your city",
+    },
+    {
+        icon: FaShapes,
+        text: "Exchange knowledge and ideas with fellow developers"
+    },
+    {
+        icon: FaCalendarCheck,
+        text: "Stay updated with local developer events and meetups"
+    },
+    {
+        icon: FaNewspaper,
+        text: "Explore job opportunities and connect with potential employers in the dev community."
+    }
+];
 export const features = [
   "Easy sign-up process with just a few clicks",
   "Personalized profiles to showcase skills and interests",
@@ -36,28 +56,33 @@ export const landingServices = [
   },
 ];
 
-import { FaCalendar, FaHandshake, FaNewspaper, FaRegFolderOpen} from 'react-icons/fa';
-export const benefits = [
+
+
+
+
+export const testimonials = [
   {
-    icon: <FaHandshake/>,
-    description:
-      "Connect with Like-minded developers in your city.",
+    name: "Christian Levi",
+    image: {
+      src: "/images/testimonials/1.jpeg",
+      alt: "Christian Levi",
+    },
+    text: "DevsKonnekt has revolutionized the way I network with other developers.. The platform is user friendly and the community is supportive and engaged."
   },
   {
-    icon: <FaCalendar />,
-    description:
-      "Stay updated with local developer events and meetups",
+    name: "Emily Siyachitema",
+    image: {
+      src: "/images/testimonials/2.jpeg",
+      alt: "Emily Siyachitema",
+    },
+    text: "DevsKonnekt has helped me connect with other developers in my area and discover exciting new projects. Highly recommend!",
   },
   {
-    icon: <FaRegFolderOpen/>,
-    description:
-      "Exchange knowledge and ideas with fellow developers",
-  },
-  {
-    icon: <FaNewspaper/>,
-    description:
-      "Explore job opportunities and connect with potential employees in the dev community",
-  },
+    name: "Brian Ngorimwa",
+    image: {
+      src: "/images/testimonials/3.jpeg",
+      alt: "Brian Ngorimwa",
+    },
+    text: "DevsKonnekt has been a game-changer for our recruitment process. Finding top talent has never been easier."
+  }
 ];
-
-

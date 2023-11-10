@@ -1,3 +1,4 @@
+
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -11,11 +12,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <body>{children}</body>
       <body
         className={`${inter.className} bg-background max-w-7xl w-full mx-auto`}
       >
         {children}
-      </body>
+      </body> 
     </html>
   );
 }
