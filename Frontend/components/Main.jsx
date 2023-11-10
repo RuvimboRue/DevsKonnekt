@@ -31,20 +31,18 @@ function Main() {
     >
       <div className='mb-14 lg:mb-0 lg:w-1/2'>
         <br />
-        <br />
-        <br />
         <h1 className='text-2xl leading-none text-indigo-950 font-bold font-sans lg:text-5xl sm:text-xl sm:ml-4 text-center lg:text-left lg:leading-tight mb-5 sm:pt-14 sm:mb-12'>
           Connect, Collaborate, and Conquer the Coding World with DevsKonnekt
         </h1>
-        <p className='text-indigo-950 font-light font-sans'>
+        <p className='text-indigo-950 font-semibold font-sans'>
           Join the ultimate platform for developers to connect, chat and explore local developer events in your community
         </p>
         <br />
         <div className='flex justify-start items-center'>
-          <button className='text-white text-base sm:text-lg bg-indigo-600 font-medium rounded-lg px-6 py-3 w-[150px] sm:w-[20%] text-center'>
+          <button className='text-white text-base sm:text-lg bg-indigo-600 font-medium rounded-lg px-6 py-3 w-[200px] sm:w-[30%] text-center'>
             Join Us
           </button>
-          <button className='text-indigo-600 text-base sm:text-lg bg-white font-medium rounded-lg border border-indigo-600 px-6 py-3 ml-4 w-[150px] sm:w-[20%] text-center hover:bg-indigo-600 hover:text-white'>
+          <button className='text-indigo-600 text-base sm:text-lg bg-white font-medium rounded-lg border border-indigo-600 px-6 py-3 ml-4 w-[200px] sm:w-[30%] text-center hover:bg-indigo-600 hover:text-white'>
             Contact
           </button>
         </div>
